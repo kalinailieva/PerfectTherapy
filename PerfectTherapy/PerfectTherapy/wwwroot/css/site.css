@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script:wght@400;600&family=Lato:wght@300;400&family=Open+Sans:ital,wght@1,300&display=swap');
+
+html {
+    position: relative;
+    min-height: 100%;
+    font-size: 14px;
+    text-align: justify;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+    .dancing-title {
+        font-size: 50px;
+    }
+}
+
+
+body {
+  margin-bottom: 60px;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+div{
+    margin: 10px 0 10px 0;
+}
+
+.btn-green{
+    background-color: khaki;
+}
+
+.login-register-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+   
+}
+
+.dancing-title {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+.dancing-link {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+   
+}
+
+    .dancing-link:hover{
+        font-weight:300;
+        font-size: 26px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
